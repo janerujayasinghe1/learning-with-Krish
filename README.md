@@ -17,7 +17,7 @@ So lets talk about how this happen and what is the flow of execution
 
 lets take static block
 
-    static block is run when the class loading time and runs only once .class loading time means storing class 
+ static block is run when the class loading time and runs only once .class loading time means storing class 
 specific information in the memory.It means before runung the main method the static block will run.thats why 
 the static block executed messeage comes first.static block have ability to inizialize static variables and static methods.
 And the static block will run only once.
