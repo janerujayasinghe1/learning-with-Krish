@@ -17,18 +17,18 @@ So lets talk about how this happen and what is the flow of execution
 
 lets take static block
 
- static block is run when the class loading time and runs only once .class loading time means storing class 
+Static block is run when the class loading time and runs only once .class loading time means storing class 
 specific information in the memory.It means before runung the main method the static block will run.thats why 
 the static block executed messeage comes first.static block have ability to inizialize static variables and static methods.
 And the static block will run only once.
 
-  empty block
+ Empty block
 
-  empty blocks will call when creating a object using new keyword.this will not execute if you are not creating a object.In the empty block both static and
+ Empty blocks will call when creating a object using new keyword.this will not execute if you are not creating a object.In the empty block both static and
 non static variables can be initialized and also static and instance method can be called from the empty block.This empty block will called before calling 
 the constructor.thats why "empty block executed" message come before the constructor message.
 
-constructor block
+Constructor block
 
 final execution is the constructor.when a object creating using new key word constructor will called and initialized the newly created object.when ever we creating
 a object constructor will called.
